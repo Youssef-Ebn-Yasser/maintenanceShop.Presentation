@@ -1,8 +1,17 @@
 ﻿global using maintenanceShop.Domain.Common;
 global using maintenanceShop.Domain.Common.Results;
 global using maintenanceShop.Domain.Common.Results.Abstractions;
+global using maintenanceShop.Domain.Customers.Vehicles;
+global using maintenanceShop.Domain.Employees;
 global using maintenanceShop.Domain.Identity;
+global using maintenanceShop.Domain.RepairTasks;
+global using maintenanceShop.Domain.RepairTasks.Enums;
+global using maintenanceShop.Domain.RepairTasks.Parts;
+global using maintenanceShop.Domain.Workorders.Billing;
+global using maintenanceShop.Domain.Workorders.Enums;
 global using MediatR;
 global using System.ComponentModel;
 global using System.ComponentModel.DataAnnotations.Schema;
+global using System.Net.Mail;
 global using System.Text.Json.Serialization;
+global using System.Text.RegularExpressions;
