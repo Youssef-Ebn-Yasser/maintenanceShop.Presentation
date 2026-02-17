@@ -1,0 +1,17 @@
+﻿global using FluentValidation;
+global using maintenanceShop.Application.Common.Interfaces;
+global using maintenanceShop.Application.Features.Customers.Dtos;
+global using maintenanceShop.Application.Features.Customers.Mappers;
+global using maintenanceShop.Domain.Common.Results;
+global using maintenanceShop.Domain.Customers;
+global using maintenanceShop.Domain.Customers.Vehicles;
+global using maintenanceShop.Domain.Employees;
+global using maintenanceShop.Domain.Identity;
+global using maintenanceShop.Domain.RepairTasks;
+global using maintenanceShop.Domain.RepairTasks.Parts;
+global using maintenanceShop.Domain.Workorders;
+global using maintenanceShop.Domain.Workorders.Billing;
+global using MediatR;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Caching.Hybrid;
+global using Microsoft.Extensions.Logging;
