@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maintenanceShop.Contracts",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maintenanceShop.Application", "maintenanceShop.Application\maintenanceShop.Application.csproj", "{7FE9E0EC-7B3E-4DC4-AECE-A6B26F386DEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maintenanceShop.Infrastructure", "maintenanceShop.Infrastructure\maintenanceShop.Infrastructure.csproj", "{9F46DD03-414D-45BF-AD2A-59DF2ECF70C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{7FE9E0EC-7B3E-4DC4-AECE-A6B26F386DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FE9E0EC-7B3E-4DC4-AECE-A6B26F386DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FE9E0EC-7B3E-4DC4-AECE-A6B26F386DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F46DD03-414D-45BF-AD2A-59DF2ECF70C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F46DD03-414D-45BF-AD2A-59DF2ECF70C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F46DD03-414D-45BF-AD2A-59DF2ECF70C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F46DD03-414D-45BF-AD2A-59DF2ECF70C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{97E2B0BF-2469-48F2-887D-AED7807625AB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{F6819AF2-9CBD-449B-A89B-E89B9C45A6BF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{7FE9E0EC-7B3E-4DC4-AECE-A6B26F386DEB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9F46DD03-414D-45BF-AD2A-59DF2ECF70C0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D8B959F-2AD1-439E-BC53-4D57328B5145}
